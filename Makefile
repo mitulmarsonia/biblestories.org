@@ -34,3 +34,6 @@ define cdn_invalidate
     --data '{"purge_everything":true}'
 endef
 
+deps:
+	npm install bower
+	node_modules/bower/bin/bower install
